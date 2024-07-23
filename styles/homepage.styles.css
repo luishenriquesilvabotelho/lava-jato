@@ -1,0 +1,45 @@
+/* styles.css */
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  #sidebar {
+    transition: all 0.3s;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 280px;
+    overflow-y: auto;
+  }
+  
+  #sidebar.collapsed {
+    width: 60px;
+  }
+  
+  #sidebar.collapsed .nav-link span,
+  #sidebar.collapsed .dropdown-toggle strong {
+    display: none;
+  }
+  
+  #sidebar.collapsed .dropdown-menu {
+    display: none;
+  }
+  
+  main {
+    margin-left: 280px;
+    transition: margin-left 0.3s;
+  }
+  
+  #sidebar.collapsed ~ main {
+    margin-left: 60px;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' d='M4 6h16M4 12h16m-7 6h7'/%3E%3C/svg%3E");
+  }
+  
