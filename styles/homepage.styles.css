@@ -17,7 +17,7 @@ body {
   color: white;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 0 15px;
+  padding: 0 10px;
 }
 
 .navbar-brand {
@@ -53,13 +53,13 @@ body {
 }
 
 .content {
-  margin-top: 120px; /* Ajuste para não sobrepor a navbar */
+  margin-top: 110px; /* Ajuste para não sobrepor a navbar */
   margin-left: 230px; /* Ajuste para não sobrepor a sidebar */
   transition: margin-left 0.5s ease;
 }
 
 .content-collapsed {
-  margin-left: 110px;
+  margin-left: 100px;
 }
 
 .sidebar-collapsed .nav-link span {
@@ -68,4 +68,12 @@ body {
 
 .sidebar-collapsed .nav-link i {
   margin-right: 0;
+}
+
+.banner {
+  height: 350px; /* Ajuste conforme necessário */
+  background-image: url('../Assets/teste1.jpeg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
 }
