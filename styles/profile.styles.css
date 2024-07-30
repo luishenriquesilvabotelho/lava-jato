@@ -5,7 +5,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #0D47A1;
-  font-family: 'Poppins', sans-serif; 
+  font-family: 'Poppins', sans-serif;
 }
 
 .navbar {
@@ -23,6 +23,7 @@ body {
   padding: 0 10px;
 }
 
+
 .navbar-brand {
   margin-left: 10px;
 }
@@ -31,11 +32,11 @@ body {
   display: flex;
   align-items: center;
 }
-
 .nav-link i {
   margin-right: 10px;
   font-size: 1.2rem;
 }
+
 .text_nav {
   color: white;
   font-size: 1.25rem;
@@ -54,6 +55,7 @@ body {
   padding-top: 1rem;
   overflow: hidden;
 }
+
 
 .sidebar-collapsed {
   width: 80px;
@@ -77,10 +79,12 @@ body {
   margin-right: 0;
 }
 
-.banner {
-  height: 350px; /* Ajuste conforme necessário */
-  background-image: url('../Assets/teste1.jpeg');
-  background-size: cover;
-  background-position: center;
+.card {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border: 1px solid #ddd;
   border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
