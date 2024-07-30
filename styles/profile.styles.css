@@ -43,7 +43,7 @@ body {
 }
 
 .sidebar {
-  width: 200px;
+  width: 230px;
   height: calc(100% - 120px); /* Ajuste para ocupar todo o conteúdo */
   transition: width 0.5s ease, margin-left 0.5s ease;
   position: fixed;

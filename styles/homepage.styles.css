@@ -36,14 +36,16 @@ body {
   margin-right: 10px;
   font-size: 1.2rem;
 }
+
 .text_nav {
   color: white;
   font-size: 1.25rem;
 }
 
 .sidebar {
-  width: 200px;
-  height: calc(100% - 120px); /* Ajuste para ocupar todo o conteúdo */
+  width: 230px;
+  height: calc(100% - 120px);
+  /* Ajuste para ocupar todo o conteúdo */
   transition: width 0.5s ease, margin-left 0.5s ease;
   position: fixed;
   top: 100px;
@@ -60,8 +62,10 @@ body {
 }
 
 .content {
-  margin-top: 110px; /* Ajuste para não sobrepor a navbar */
-  margin-left: 230px; /* Ajuste para não sobrepor a sidebar */
+  margin-top: 110px;
+  /* Ajuste para não sobrepor a navbar */
+  margin-left: 230px;
+  /* Ajuste para não sobrepor a sidebar */
   transition: margin-left 0.5s ease;
 }
 
@@ -78,7 +82,8 @@ body {
 }
 
 .banner {
-  height: 350px; /* Ajuste conforme necessário */
+  height: 350px;
+  /* Ajuste conforme necessário */
   background-image: url('../Assets/teste1.jpeg');
   background-size: cover;
   background-position: center;
